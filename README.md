@@ -176,15 +176,13 @@ Verify resources in `dev`:
 ```bash
 kubectl get pods,svc -n dev
 ```
-### Dev namespace resources
-![Dev namespace resources](images/pods-services-dev.png)
+
 Verify resources in `staging`:
 
 ```bash
 kubectl get pods,svc -n staging
 ```
-### Staging namespace resources
-![Staging namespace resources](images/pods-services-dev.png)
+
 ---
 
 ## Internal Routing Explanation
@@ -229,8 +227,6 @@ Open in browser:
 ```text
 http://localhost:8082
 ```
-### Frontend in dev
-![Frontend in dev](images/localhost3.png)
 ### Staging environment
 
 ```bash
@@ -242,8 +238,6 @@ Open in browser:
 ```text
 http://localhost:8083
 ```
-### Frontend in staging
-![Frontend in staging](images/localhost1.png)
 > Note: `port-forward` is temporary and must remain running in the terminal while using the browser.
 
 ---
@@ -335,25 +329,21 @@ Namespace: dev
 
 ## Screenshots
 
-Add your screenshots here after running the required commands.
-
 ### 1. Dev namespace resources
 
-![Dev namespace resources](images/dev-pods-services.png)
+![Dev namespace resources](images/pods-services-dev.png)
 
 ### 2. Staging namespace resources
 
-![Staging namespace resources](images/staging-pods-services.png)
+!![Staging namespace resources](images/pods-services-dev.png)
 
 ### 3. Frontend in dev via port-forward
 
-![Frontend dev](images/frontend-dev.png)
+![Frontend in dev](images/localhost3.png)
 
 ### 4. Frontend in staging via port-forward
 
-![Frontend staging](images/frontend-staging.png)
-
-> Create an `images/` folder in the repository and place your screenshots there.
+![Frontend in staging](images/localhost1.png)
 
 ---
 
