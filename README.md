@@ -389,10 +389,4 @@ By completing this lab, I learned how to:
 
 This lab successfully demonstrates how a single Kubernetes cluster can host multiple isolated environments using namespaces. The frontend and backend communicate internally through services, while each namespace remains logically separated. This setup reflects a real-world approach to managing **development** and **staging** environments efficiently inside one cluster.
 
----
-
-## Author
-
-**Name:** Your Name Here
-**Course / Lab:** Kubernetes Lab 3 - Multi-Tenancy with Namespaces and Internal Routing
 
